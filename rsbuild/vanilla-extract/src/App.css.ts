@@ -1,4 +1,5 @@
 import { style } from '@vanilla-extract/css';
+import img from './rsbuild-logo.svg';
 
 export const contentStyle = style({
   display: 'flex',
@@ -7,6 +8,7 @@ export const contentStyle = style({
   textAlign: 'center',
   flexDirection: 'column',
   justifyContent: 'center',
+  backgroundImage: `url(${img})`,
 });
 
 export const headingStyle = style({
